@@ -31,6 +31,13 @@ var infoScrap = function(index){
                 var price_file = "https://wwwcfprd.doa.louisiana.gov/osp/lapac/ecat/dsp_createXLSXCatalogItems.cfm?contract=" + contract_number
                 var effetive = eff_exp.split("-")[0].trim()
                 var expire = eff_exp.split("-")[1].trim()
+                var coop = $("#mainContent table:first-of-type table tr:nth-of-type(6) td:nth-of-type(4)").text().trim()
+                if( coop == "No"){
+                    coop = false
+                }
+                else {
+                    coop = true
+                }
                 
                 var buyers = []
                 $("#mainContent table:nth-of-type(3) table").each(function(){
@@ -93,7 +100,7 @@ var infoScrap = function(index){
                 output.fields.supplier_contacts = suppliers
                 output.fields.suppliers = supplier_name
                 output.fields.title = title
-                output.fields.cooperative_language = true
+                output.fields.cooperative_language = coop
 
                 if( input_actions.indexOf("Export Catalog Items to Excel")){
                     output.fields.pricing_files.push({
