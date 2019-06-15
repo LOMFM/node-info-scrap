@@ -1,1 +1,81 @@
-{"type":"add","id":"b7752f80-8f8a-11e9-8dfe-1f9b28d37758","source_url":"https://wwwcfprd.doa.louisiana.gov/osp/lapac/ecat/dsp_LagovContractDetail.cfm?Contract=4400017253","source_key":"state-of-louisiana","fields":{"amendments_files":[],"buyer_contacts":[{"organization":"Office of State Purchasing","name":"KATIE ANDRESS","phone":"225-342-4832","mail":"KATIE.ANDRESS@LA.GOV"}],"buyer_lead_agency":"State of Louisiana","buyer_lead_agency_state":"LA","buyer_lead_agency_type":"State agency","contract_files":[{"name":"Contract","url":"https://wwwcfprd.doa.louisiana.gov/OSP/Lapac/Agency/PDF/LAGOVContracts/K4400017253"}],"cooperative_language":true,"contract_number":"4400017253","effective":"06/07/2019","expiration":"06/06/2022","other_docs_files":[{"name":"Attachment A - Special Terms & Conditions, Pages 1-37 ","url":"Http://wwwcfprd.doa.louisiana.gov/OSP/Lapac/Agency/PDF/LAGOVContracts/4400017253-1.pdf"}],"pricing_files":[{"name":"Catalog","url":"https://wwwcfprd.doa.louisiana.gov/osp/lapac/ecat/dsp_createXLSXCatalogItems.cfm?contract=4400017213"},{"name":"Catalog","url":"https://wwwcfprd.doa.louisiana.gov/osp/lapac/ecat/dsp_createXLSXCatalogItems.cfm?contract=4400017214"},{"name":"Catalog","url":"https://wwwcfprd.doa.louisiana.gov/osp/lapac/ecat/dsp_createXLSXCatalogItems.cfm?contract=4400017253"}],"supplier_contacts":[{"name":"Tressy Leindecker","email":"tressy@venyu.com","phone":"2252143885","addr":"913 S BURNSIDE AVE","city":"GONZALES","state":"LA","zip":"70737"},{"name":"Tressy Leindecker","email":"TLeindecker@venyu.com","phone":"2252143885","addr":"913 S BURNSIDE AVE","city":"GONZALES","state":"LA","zip":"70737"},{"name":"Michael Orban","email":"mike.orban@eatel.com","phone":"225-621-4327","addr":"913 S BURNSIDE AVE","city":"GONZALES","state":"LA","zip":"70737"}],"suppliers":"ADVANCED TEL LLC                        ","title":"Ethernet Connections - DOTD Toll Bridge"}}
+{
+    "type": "add",
+    "id": "b7752f80-8f8a-11e9-8dfe-1f9b28d37758",
+    "source_url": "https://wwwcfprd.doa.louisiana.gov/osp/lapac/ecat/dsp_LagovContractDetail.cfm?Contract=4400017253",
+    "source_key": "state-of-louisiana",
+    "fields": {
+        "amendments_files": [],
+        "buyer_contacts": [
+            {
+                "organization": "Office of State Purchasing",
+                "name": "KATIE ANDRESS",
+                "phone": "225-342-4832",
+                "mail": "KATIE.ANDRESS@LA.GOV"
+            }
+        ],
+        "buyer_lead_agency": "State of Louisiana",
+        "buyer_lead_agency_state": "LA",
+        "buyer_lead_agency_type": "State agency",
+        "contract_files": [
+            {
+                "name": "Contract",
+                "url": "https://wwwcfprd.doa.louisiana.gov/OSP/Lapac/Agency/PDF/LAGOVContracts/K4400017253"
+            }
+        ],
+        "cooperative_language": true,
+        "contract_number": "4400017253",
+        "effective": "06/07/2019",
+        "expiration": "06/06/2022",
+        "other_docs_files": [
+            {
+                "name": "Attachment A - Special Terms & Conditions, Pages 1-37 ",
+                "url": "Http://wwwcfprd.doa.louisiana.gov/OSP/Lapac/Agency/PDF/LAGOVContracts/4400017253-1.pdf"
+            }
+        ],
+        "pricing_files": [
+            {
+                "name": "Catalog",
+                "url": "https://wwwcfprd.doa.louisiana.gov/osp/lapac/ecat/dsp_createXLSXCatalogItems.cfm?contract=4400017213"
+            },
+            {
+                "name": "Catalog",
+                "url": "https://wwwcfprd.doa.louisiana.gov/osp/lapac/ecat/dsp_createXLSXCatalogItems.cfm?contract=4400017214"
+            },
+            {
+                "name": "Catalog",
+                "url": "https://wwwcfprd.doa.louisiana.gov/osp/lapac/ecat/dsp_createXLSXCatalogItems.cfm?contract=4400017253"
+            }
+        ],
+        "supplier_contacts": [
+            {
+                "name": "Tressy Leindecker",
+                "email": "tressy@venyu.com",
+                "phone": "2252143885",
+                "addr": "913 S BURNSIDE AVE",
+                "city": "GONZALES",
+                "state": "LA",
+                "zip": "70737"
+            },
+            {
+                "name": "Tressy Leindecker",
+                "email": "TLeindecker@venyu.com",
+                "phone": "2252143885",
+                "addr": "913 S BURNSIDE AVE",
+                "city": "GONZALES",
+                "state": "LA",
+                "zip": "70737"
+            },
+            {
+                "name": "Michael Orban",
+                "email": "mike.orban@eatel.com",
+                "phone": "225-621-4327",
+                "addr": "913 S BURNSIDE AVE",
+                "city": "GONZALES",
+                "state": "LA",
+                "zip": "70737"
+            }
+        ],
+        "suppliers": "ADVANCED TEL LLC                        ",
+        "title": "Ethernet Connections - DOTD Toll Bridge"
+    }
+}
