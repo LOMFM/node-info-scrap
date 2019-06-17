@@ -18,7 +18,8 @@ var infoScrap = function(index){
 		request( options, function(error, response, html) {
 			if( !error ){
                 var $ = cheerio.load(html);
-                let output = {...config.OUTPUTPATTERN}
+                let output = {}
+                output = {...config.OUTPUTPATTERN}
 
                 output.source_url = url
 
@@ -132,6 +133,7 @@ var infoScrap = function(index){
                 output.fields.title = title
                 output.fields.cooperative_language = coop
 
+                output.fields.pricing_files = []
                 if( input_actions.indexOf("Export Catalog Items to Excel")){
                     output.fields.pricing_files.push({
                         name: "Catalog",
