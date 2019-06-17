@@ -33,8 +33,8 @@ var infoScrap = function(index){
                 supplier_name = supplier_name.trim()
                 var eff_exp = $("#mainContent table:first-of-type table tr:nth-of-type(6) td:nth-of-type(2)")
                 eff_exp = eff_exp == null ? "" : eff_exp.text()
-                var contract_file = "https://wwwcfprd.doa.louisiana.gov/OSP/Lapac/Agency/PDF/LAGOVContracts/K" + contract_number
-                var price_file = "https://wwwcfprd.doa.louisiana.gov/osp/lapac/ecat/dsp_createXLSXCatalogItems.cfm?contract=" + contract_number
+                var contract_file = "https://wwwcfprd.doa.louisiana.gov/OSP/Lapac/Agency/PDF/LAGOVContracts/K" + contract_number + ".pdf"
+                var price_file = "https://wwwcfprd.doa.louisiana.gov/osp/lapac/ecat/dsp_createXLSXCatalogItems.cfm?contract=" + contract_number + ".xls"
                 var effective = ""
                 var expire = ""
                 if( eff_exp ){
