@@ -1,6 +1,6 @@
 {
     "type": "add",
-    "id": "b2d19810-8f8a-11e9-8dfe-1f9b28d37758",
+    "id": "2b3e8ef0-911d-11e9-9dda-657d6b5aa334",
     "source_url": "https://wwwcfprd.doa.louisiana.gov/osp/lapac/ecat/dsp_LagovContractDetail.cfm?Contract=4400017213",
     "source_key": "state-of-louisiana",
     "fields": {
@@ -22,7 +22,7 @@
                 "url": "https://wwwcfprd.doa.louisiana.gov/OSP/Lapac/Agency/PDF/LAGOVContracts/K4400017213"
             }
         ],
-        "cooperative_language": true,
+        "cooperative_language": false,
         "contract_number": "4400017213",
         "effective": "07/07/2011",
         "expiration": "06/30/2020",
@@ -44,7 +44,7 @@
                 "zip": "70633"
             }
         ],
-        "suppliers": "CITY OF DEQUINCY                        ",
+        "suppliers": "CITY OF DEQUINCY",
         "title": "Copy of Contract 4400001989"
     }
 }
